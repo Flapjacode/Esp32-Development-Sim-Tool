@@ -10,7 +10,7 @@ Pin Configuration System:
 
 <br><img width="491" height="550" alt="image" src="https://github.com/user-attachments/assets/2100f568-fa3c-4fe8-9ee8-1ecfa73e0bff" />
 
-<p>### Select from multiple functions (GPIO, I2C, SPI, UART, etc.)
+<p>## Select from multiple functions (GPIO, I2C, SPI, UART, etc.)
 
 Configure pin modes (digital input/output, analog, etc.)
 
@@ -20,11 +20,11 @@ Code Generation:
 
 <br><img width="450" height="500" alt="image" src="https://github.com/user-attachments/assets/27d4a9ac-6c92-49a4-a83f-f6de98a799c8" />
 
-<p> Automatic generation of initialization code for individual pins
+<p> ## Automatic generation of initialization code for individual pins
 
 Complete setup function template for all configured pins
 
-<p> <b>Validation of pin assignments for conflicts</b>
+<p> <b> ## Validation of pin assignments for conflicts</b>
 
 
 <br><img width="588" height="239" alt="image" src="https://github.com/user-attachments/assets/ece7ba8e-4e1c-4019-8b73-14bf2e33796e" />
