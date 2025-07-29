@@ -3,11 +3,11 @@
 ## Project Overview
 This web application provides an interactive interface for configuring ESP-32 microcontroller pins. The tool assists developers in properly setting up their ESP-32 projects by generating boilerplate code based on their pin configuration selections.
 
-<img width="491" height="550" alt="image" src="https://github.com/user-attachments/assets/2100f568-fa3c-4fe8-9ee8-1ecfa73e0bff" />
 
-<img width="450" height="500" alt="image" src="https://github.com/user-attachments/assets/27d4a9ac-6c92-49a4-a83f-f6de98a799c8" />
 
-<img width="588" height="239" alt="image" src="https://github.com/user-attachments/assets/ece7ba8e-4e1c-4019-8b73-14bf2e33796e" />
+
+
+
 
 
 
@@ -15,7 +15,7 @@ This web application provides an interactive interface for configuring ESP-32 mi
 Visual Pin Selection Interface: Interactive representation of all ESP-32 pins with clear labeling
 
 Pin Configuration System:
-
+<img width="491" height="550" alt="image" src="https://github.com/user-attachments/assets/2100f568-fa3c-4fe8-9ee8-1ecfa73e0bff" />
 Select from multiple functions (GPIO, I2C, SPI, UART, etc.)
 
 Configure pin modes (digital input/output, analog, etc.)
@@ -23,13 +23,13 @@ Configure pin modes (digital input/output, analog, etc.)
 Add custom names and descriptions for each pin
 
 Code Generation:
-
+<img width="450" height="500" alt="image" src="https://github.com/user-attachments/assets/27d4a9ac-6c92-49a4-a83f-f6de98a799c8" />
 Automatic generation of initialization code for individual pins
 
 Complete setup function template for all configured pins
 
 Validation of pin assignments for conflicts
-
+<img width="588" height="239" alt="image" src="https://github.com/user-attachments/assets/ece7ba8e-4e1c-4019-8b73-14bf2e33796e" />
 Integrated Development Environment:
 
 Built-in terminal for immediate feedback
