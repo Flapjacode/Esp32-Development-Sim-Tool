@@ -37,78 +37,107 @@ Code validation before deployment
 
 Support for common ESP-IDF and Arduino frameworks
 
-Target Audience
-Developers working with ESP-32 who want to streamline their workflow
 
-Educators teaching embedded systems programming
 
-Hobbyists learning microcontroller programming
 
-Teams working remotely without immediate hardware access
 
-Technical Specifications
-Frontend: React.js with interactive UI components
 
-Backend: Node.js with Express for code generation services
+# ESP32 Pin Configuration Simulator
 
-Code Validation: ESP-IDF and Arduino framework compatibility checks
+## Project Overview
 
-Browser Support: Modern browsers (Chrome, Firefox, Edge, Safari)
+A web-based ESP32 pin configuration tool that allows developers to:
+- Visually configure ESP32 pins with different modes (GPIO, I2C, SPI, UART)
+- Generate Arduino-compatible code templates
+- Validate code syntax before deployment
+- Test configurations without physical hardware
 
-## Future Development Roadmap
-Additional Microcontroller Support:
+## Features
 
-STM32 series
+- **Interactive Pin Configuration**:
+  - Visual representation of ESP32 pins
+  - Pin-specific configuration options
+  - Custom variable naming and descriptions
 
-RP2040 (Raspberry Pi Pico)
+- **Code Generation**:
+  - Automatic template generation
+  - Setup/Loop structure
+  - Pin mode initialization
 
-AVR (Arduino) chips
-
-Enhanced Features:
-
-Peripheral configuration wizards (I2C devices, SPI displays, etc.)
-
-Project template generation
-
-Collaborative editing features
-
-Advanced Validation:
-
-Electrical characteristic validation
-
-Power consumption estimation
-
-Signal integrity warnings
+- **Code Validation**:
+  - Syntax checking
+  - Pin usage verification
+  - Common ESP32 function detection
 
 ## Installation
 
-1. Clone the repository:
+### Web Version (No Installation Required)
+The application runs directly in modern browsers:
+1. Open `index.html` in your preferred browser
+2. Start configuring your ESP32 pins
 
+### Development Setup
+
+1. Clone the repository:
 ```bash
-git clone [repository-url]
-cd esp32-pin-configurator
+git clone https://github.com/yourusername/esp32-pin-simulator.git
+cd esp32-pin-simulator
 ```
 
-2. Install dependencies:
-
+2. Install dependencies (if using Node.js server):
 ```bash
 npm install
 ```
 
 3. Start the development server:
-
 ```bash
 npm start
 ```
 
+4. Open in browser:
+```bash
+http://localhost:3000
+```
 
+## Usage
 
+1. **Configure Pins**:
+   - Click on any ESP32 pin to select it
+   - Choose the appropriate mode from the dropdown
+   - Assign a variable name and description
 
+2. **Generate Code**:
+   - Click "Generate Template" to create starter code
+   - The editor will populate with properly configured pin setups
 
-Contribution Guidelines
-We welcome contributions to this open-source project. Please follow these guidelines:
+3. **Validate Code**:
+   - Click "Validate Code" to check for common errors
+   - The output panel will show validation results
 
-Fork the repository and create a new branch for your feature
+4. **Export Code**:
+   - Copy the generated code directly from the editor
+   - Paste into your Arduino IDE or PlatformIO project
+
+## Project Structure
+
+```
+esp32-pin-simulator/
+├── index.html          # Main application file
+├── README.md           # Project documentation
+├── assets/             # Static assets (CSS, JS, images)
+│   ├── styles.css      # Additional styles
+│   └── scripts.js      # Additional JavaScript
+└── package.json        # Node.js dependencies (optional)
+```
+
+## Dependencies
+
+- Modern web browser (Chrome, Firefox, Edge, Safari)
+- Node.js (optional for local development server)
+
+## License
+
+MIT License - See LICENSE file for details
 
 Ensure all code follows the existing style and conventions
 
