@@ -10,7 +10,7 @@ Pin Configuration System:
 
 <br><img width="491" height="550" alt="image" src="https://github.com/user-attachments/assets/2100f568-fa3c-4fe8-9ee8-1ecfa73e0bff" />
 
-<p>Select from multiple functions (GPIO, I2C, SPI, UART, etc.)
+<p>### Select from multiple functions (GPIO, I2C, SPI, UART, etc.)
 
 Configure pin modes (digital input/output, analog, etc.)
 
