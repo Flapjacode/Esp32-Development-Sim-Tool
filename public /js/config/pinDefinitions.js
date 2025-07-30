@@ -1,4 +1,4 @@
-// ESP32 pin definitions
+// ✅ pinDefinitions.js (unchanged, stores ESP32 pin data)
 const esp32Pins = {
     0: { name: 'GPIO0', type: 'Boot/Flash', capabilities: ['Digital I/O', 'PWM', 'Boot Pin'] },
     1: { name: 'GPIO1/TX0', type: 'UART', capabilities: ['UART TX', 'Digital I/O'] },
@@ -27,3 +27,5 @@ const esp32Pins = {
     36: { name: 'GPIO36/VP', type: 'Input Only', capabilities: ['Analog Input', 'ADC1'] },
     39: { name: 'GPIO39/VN', type: 'Input Only', capabilities: ['Analog Input', 'ADC1'] }
 };
+
+export { esp32Pins };
