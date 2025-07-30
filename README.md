@@ -148,7 +148,7 @@ Update documentation as needed
 Submit a pull request with a clear description of changes
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+<a href="https://flapjacode.github.io/Esp32-Sim-Tool/">ESP IDE SimTool</a> © 2025 by <a href="https://github.com/Flapjacode">Matthew Shannon</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 
 Support
 For issues or feature requests, please open an issue in the GitHub repository. For direct inquiries, contact the project maintainers through GitHub.
