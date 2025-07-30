@@ -80,8 +80,8 @@ The application runs directly in modern browsers:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/esp32-pin-simulator.git
-cd esp32-pin-simulator
+git clone https://github.com/Flapjacode/Esp32-Sim-Tool.git
+cd Esp32-Sim-Tool
 ```
 
 2. Install dependencies (if using Node.js server):
@@ -121,7 +121,7 @@ http://localhost:3000
 ## Project Structure
 
 ```
-esp32-pin-simulator/
+Esp32-Sim-Tool/
 ├── index.html          # Main application file
 ├── README.md           # Project documentation
 ├── assets/             # Static assets (CSS, JS, images)
